@@ -5,13 +5,13 @@ const Post = require('../models/post');
 
 /* GET home page. */
 router.get('/', (req, res) => {
-  Post.find({}, (err, reviews) => {
+  Post.find({}, (err, posts) => {
     if (err) {
       console.log(err);
     }
 
     res.render('posts/index', {
-      // posts: posts
+      posts: posts
     })
   });
 });
@@ -23,12 +23,12 @@ router.get('/posts/new', (req, res) => {
 router.post('/posts', (req, res) => {
   const post = new Post(req.body);
 
-  post.save(function(err, review) {
+  post.save(function(err, post) {
     if (err) {
       console.log(err);
     }
 
-    return res.redirect('/posts/' + post._id);
+    return res.redirect('/');
   });
 });
 
