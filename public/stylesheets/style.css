@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
 body {
   padding: 50px;
-  font: 14px "Helvetica", Helvetica, Arial, sans-serif;
 }
+
 
 a {
   color: #00B7FF;
@@ -10,7 +12,8 @@ a {
 .first-section {
   padding-top: 2em;
   text-align: center;
-  font-family: Helvetica;
+  font-family: : Helvetica;
+  font-style: italic;
 }
 
 nav {
