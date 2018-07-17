@@ -38,4 +38,12 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+const mongoose = require('mongoose');
+const mongoURI = 'mongodb://msuser:makeschool1@ds121665.mlab.com:21665/palettte';
+
+mongoose.connect(mongoURI)
+mongoose.Promise = global.Promise;
+let db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
 module.exports = app;
