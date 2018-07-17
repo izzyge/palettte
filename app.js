@@ -7,14 +7,6 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-const mongoose = require('mongoose');
-const mongoURI = '(your mongodb URI)';
-
-mongoose.connect(mongoURI)
-mongoose.Promise = global.Promise;
-let db = mongoose.connection;
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-
 var app = express();
 
 // view engine setup
@@ -45,5 +37,13 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+const mongoose = require('mongoose');
+const mongoURI = 'mongodb://msuser:makeschool1@ds121665.mlab.com:21665/palettte';
+
+mongoose.connect(mongoURI)
+mongoose.Promise = global.Promise;
+let db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 module.exports = app;
