@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
-
-body {
+/* @import url('https://fonts.googleapis.com/css?family=Work+Sans'); */
+ body {
   padding: 50px;
+  background-image: url("../img/backgroundimage.jpg");
+  background-size: cover;
 }
+
+body, html {
+  height: 100%;
+}
+
 
 
 a {
@@ -10,6 +16,7 @@ a {
 }
 
 .first-section {
+
   padding-top: 2em;
   text-align: center;
   font-family: : Helvetica;
@@ -18,14 +25,4 @@ a {
 
 nav {
   font-family: Helvetica;
-}
-
-.parallax {
-    background-image: url("../img/background.png");
-
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
