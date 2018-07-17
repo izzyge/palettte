@@ -1,18 +1,13 @@
-body {
-  padding: 50px;
-  font: 14px "Helvetica", Helvetica, Arial, sans-serif;
+nav {
+  font-family: Helvetica;
 }
 
-a {
-  color: #00B7FF;
+body {
+  padding: 50px;
+  font: 14px Helvetica;
 }
 
 .first-section {
   padding-top: 2em;
   text-align: center;
-  font-family: Helvetica;
-}
-
-nav {
-  font-family: Helvetica;
 }
