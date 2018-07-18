@@ -12,10 +12,38 @@
 
         <div class="card-body">
           <div class="row">
-            <div class="color 1"></div>
-            <div class="color 2"></div>
-            <div class="color 3"></div>
-            <div class="color 4"></div>
+            <style>
+              .one {
+                height: 100px;
+                width: 100px;
+                background-color: #{{color1}};
+              }
+            </style>
+            <div class="color one"></div>
+            <style>
+              .two {
+                height: 100px;
+                width: 100px;
+                background-color: #{{color2}};
+              }
+            </style>
+            <div class="color two"></div>
+            <style>
+              .three {
+                height: 100px;
+                width: 100px;
+                background-color: #{{this.color3}};
+              }
+            </style>
+            <div class="color three"></div>
+            <style>
+              .four {
+                height: 100px;
+                width: 100px;
+                background-color: #{{color4}};
+              }
+            </style>
+            <div class="color four"></div>
           </div>
           <div class="row">
             <p class="card-text">{{color1}}</p>
