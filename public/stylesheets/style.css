@@ -3,9 +3,7 @@
 body {
   padding: 10px;
   font: 14px Helvetica;
-=======
-/* @import url('https://fonts.googleapis.com/css?family=Work+Sans'); */
- body {
+
   padding: 50px;
   background-image: url("../img/backgroundimage.jpg");
   background-size: cover;
@@ -14,8 +12,6 @@ body {
 body, html {
   height: 100%;
 }
-
-
 
 a {
   color: #00B7FF;
@@ -34,6 +30,12 @@ a {
 
 nav {
   font-family: Helvetica;
-  
+
 >>>>>>> d6b70640d2db144caea71c5a9f6f09c11b12f31e
+}
+
+h4 {
+  padding: 5em;
+  font-style: italic;
+  color: #7BA8A1;
 }
