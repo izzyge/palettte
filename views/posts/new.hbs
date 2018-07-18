@@ -1,11 +1,7 @@
-<div class="row">
-  <div class="col">
+<div class="row justify-content-center">
+  <div class="col-8">
     <h1 class="post-title">Create</h1>
-  </div>
-</div>
 
-<div class="row">
-  <div class="col">
     <form method="POST" action="/posts">
       <div class="form-group">
         <label for="post-title">Title</label>
@@ -13,7 +9,20 @@
       </div>
 
       <div class="colors">
-        <label for="color-title">Hex Colors</label>
+        <div class="form-row">
+          <div class="form-group col-3">
+            <label for="hex-label">First Color</label>
+          </div>
+          <div class="form-group col-3">
+            <label for="hex-label">Second Color</label>
+          </div>
+          <div class="form-group col-3">
+            <label for="hex-label">Third Color</label>
+          </div>
+          <div class="form-group col-3">
+            <label for="hex-label">Fourth Color</label>
+          </div>
+        </div>
       </div>
 
       <div class="form-row">
@@ -41,8 +50,9 @@
         </div>
       </div>
 
-      <div>
-        <button type="submit" class="btn btn-outline-dark">+</button>
+      <div class="row justify-content-center">
+          <button type="submit" class="btn btn-outline-dark">+</button>
+        </div>
       </div>
     </form>
   </div>
