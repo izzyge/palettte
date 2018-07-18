@@ -9,3 +9,9 @@ h4 {
   margin: 3em;
 }
 
+.footer {
+  background-color: black;
+  color: white;
+  font: 14px "Helvetica", Arial, sans-serif;
+  height: 80px;
+}
