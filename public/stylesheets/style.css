@@ -1,39 +1,31 @@
-<<<<<<< HEAD
-
-body {
-  padding: 10px;
-  font: 14px Helvetica;
-=======
-/* @import url('https://fonts.googleapis.com/css?family=Work+Sans'); */
- body {
-  padding: 50px;
-  background-image: url("../img/backgroundimage.jpg");
-  background-size: cover;
-}
-
-body, html {
-  height: 100%;
-}
-
-
-
-a {
-  color: #00B7FF;
->>>>>>> d6b70640d2db144caea71c5a9f6f09c11b12f31e
-}
-
-.first-section {
-
-  padding-top: 3em;
-  text-align: center;
-<<<<<<< HEAD
-=======
-  font-family: : Helvetica;
+h4 {
+  color: #9274A3;
   font-style: italic;
+  padding: 5em;
 }
 
-nav {
-  font-family: Helvetica;
-  
->>>>>>> d6b70640d2db144caea71c5a9f6f09c11b12f31e
+
+.card {
+  margin: 3em
+
 }
+
+/* .parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+} */
