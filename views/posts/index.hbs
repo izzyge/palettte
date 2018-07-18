@@ -1,62 +1,58 @@
-<div class = "text-center">
-  <h4>create and share your own color palettes</h4>
-  <a class="btn btn-outline-dark" href="/posts/new">+</a>
-</div>
+<header>
+  <div class="row align-items-center">
+    <div class="col justify-content-center text-center">
 
-<div class="row">
+      <a class="btn btn-outline-dark" href="#">Space</a>
+    </div>
+  </div>
+</header>
+
+<div class="row justify-content-center">
   {{#each posts}}
-    <div class="col-12">
-      <div class="card post">
-        <div class="card-header">
-          {{this.title}}
-        </div>
-
+    <div class="col-7 text-center">
+      <div class="card border-white post">
         <div class="card-body">
-          <div class="row">
+          <div class="row justify-content-center">
             <style>
               .one {
-                height: 100px;
-                width: 100px;
-                background-color: #{{color1}};
+                background-color: #{{this.color1}};
               }
             </style>
             <div class="color one"></div>
             <style>
               .two {
-                height: 100px;
-                width: 100px;
-                background-color: #{{color2}};
+                background-color: #{{this.color2}};
               }
             </style>
             <div class="color two"></div>
             <style>
               .three {
-                height: 100px;
-                width: 100px;
                 background-color: #{{this.color3}};
               }
             </style>
             <div class="color three"></div>
             <style>
               .four {
-                height: 100px;
-                width: 100px;
-                background-color: #{{color4}};
+                background-color: #{{this.color4}};
               }
             </style>
             <div class="color four"></div>
           </div>
-          <div class="row">
-            <p class="card-text">{{color1}}</p>
-            <p class="card-text">{{color2}}</p>
-            <p class="card-text">{{color3}}</p>
-            <p class="card-text">{{color4}}</p>
-          </div>
         </div>
+        {{this.title}}
+
       </div>
     </div>
   {{/each}}
 </div>
+
+<div class="buttons">
+  <div class="row justify-content-end">
+    <a id="create" href="/posts/new"><img src="/img/Create.png"></a>
+    <a id="top" href="#"><img src="/img/Top.png"></a>
+  </div>
+</div>
+
 
 <footer class="text-center footer">
   <br></br>

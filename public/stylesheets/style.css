@@ -21,3 +21,21 @@ h4 {
   padding-bottom: 20px;
   text-align: center;
 }
+
+.color {
+  margin: 2px;
+  height: 175px;
+  width: 100px;
+}
+
+#create {
+  position: fixed;
+  bottom: 150px;
+  right: 50px;
+}
+
+#top {
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+}
