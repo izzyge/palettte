@@ -4,30 +4,39 @@
       <h2>create</h2>
     </div>
     <form method="POST" action="/posts">
-      <div class="form-group">
+      <div class="form-group title">
         <label for="post-title">Title</label>
         <input type="text" name="title" class="form-control" id="post-title" placeholder="">
       </div>
 
       <div class="form-row">
+
+        <!-- Color One -->
         <div class="form-group col-3 align-items-center">
           <label for="hex-label">First Color</label>
-          <input type="text" name="color1" class="form-control" id="post-color1" placeholder="#">
+          <input id="picker1" class="form-control" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color1')[0].value = document.getElementById('picker1').value.substring(1);">
+          <input name="color1" type="text" readonly value="#ffffff">
         </div>
 
+        <!-- Color Two -->
         <div class="form-group col-3 align-items-center">
           <label for="hex-label">Second Color</label>
-          <input type="text" name="color2" class="form-control" id="post-color2" placeholder="#">
+          <input id="picker2" class="form-control" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color2')[0].value = document.getElementById('picker2').value.substring(1);">
+          <input name="color2" type="text" readonly value="#ffffff">
         </div>
 
-        <div class="form-group col-3">
+        <!-- Color Three -->
+        <div class="form-group col-3 align-items-center">
           <label for="hex-label">Third Color</label>
-          <input type="text" name="color3" class="form-control" id="post-color3" placeholder="#">
+          <input id="picker3" class="form-control" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color3')[0].value = document.getElementById('picker3').value.substring(1);">
+          <input name="color3" type="text" readonly value="#fffff">
         </div>
 
-        <div class="form-group col-3">
+        <!-- Color Four -->
+        <div class="form-group col-3 align-items-center">
           <label for="hex-label">Fourth Color</label>
-          <input type="text" name="color4" class="form-control" id="post-color4" placeholder="#">
+          <input id="picker4" class="form-control" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color4')[0].value = document.getElementById('picker4').value.substring(1);">
+          <input name="color4" type="text" readonly value="#ffffff">
         </div>
       </div>
 
