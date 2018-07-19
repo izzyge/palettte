@@ -47,3 +47,14 @@
   bottom: 35px;
   right: 30px;
 }
+
+.form-control {
+  height:170px!important;
+  width:100px!important;
+  margin-bottom: 15px;
+}
+
+.title .form-control {
+  height: 30px!important;
+  width: 90%!important;
+}
