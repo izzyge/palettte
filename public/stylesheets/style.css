@@ -21,7 +21,7 @@
 }
 
 .footer {
-  background-color: black;
+  background-color: #7c7c7c;
   color: white;
   font: 14px "Helvetica", Arial, sans-serif;
   height: 80px;
@@ -41,20 +41,24 @@
 
 #create {
   position: fixed;
-  top: 65px;
-  right: 50px;
+  bottom: 200px;
+  right: 30px;
+}
+
+#create: hover {
+  background-image: url("./img/Create-new-hover.png");
 }
 
 #top {
   position: fixed;
-  bottom: 90px;
-  right: 30px;
+  bottom: 150px;
+  right: 42px;
 }
 
 #bottom {
   position: fixed;
-  bottom: 35px;
-  right: 30px;
+  bottom: 100px;
+  right: 42px;
 }
 
 .color-swatch {
