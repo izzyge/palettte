@@ -7,6 +7,7 @@ const PostSchema = new Schema({
   color2: {type: String, required: true},
   color3: {type: String, required: true},
   color4: {type: String, required: true},
+  color5: {type: String, required: true}
 });
 
 module.exports = mongoose.model('Post', PostSchema);
