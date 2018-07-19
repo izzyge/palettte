@@ -3,12 +3,21 @@
   padding: 100px 0px 30px;
   font-style: italic;
   /* color: #7BA8A1; */
-  color: #000;
+  color: #929292;
   font-size: 1.33em;
+}
+
+.btn {
+  color: #a4a4a4;
+  border-color: #a4a4a4;
 }
 
 .card {
   margin: 3em;
+}
+
+.post {
+  color: #7c7c7c;
 }
 
 .footer {
