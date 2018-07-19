@@ -1,8 +1,9 @@
 <div class="row justify-content-center">
-  <div class="col-8">
+  <div class="col-8 new-palette">
     <div class="create">
       <h2>create</h2>
     </div>
+
     <form method="POST" action="/posts">
       <div class="form-group title">
         <label for="post-title">Title</label>
@@ -14,36 +15,36 @@
         <!-- Color One -->
         <div class="form-group col-2 align-items-center">
           <label for="hex-label">First Color</label>
-          <input id="picker1" class="form-control" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color1')[0].value = document.getElementById('picker1').value.substring(1);">
-          <input name="color1" type="text" readonly value="#ffffff">
+          <input id="picker1" class="color-swatch" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color1')[0].value = document.getElementById('picker1').value.substring(1);">
+          <input name="color1" class="color-code" type="text" readonly value="#ffffff">
         </div>
 
         <!-- Color Two -->
         <div class="form-group col-2 align-items-center">
           <label for="hex-label">Second Color</label>
-          <input id="picker2" class="form-control" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color2')[0].value = document.getElementById('picker2').value.substring(1);">
-          <input name="color2" type="text" readonly value="#ffffff">
+          <input id="picker2" class="color-swatch" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color2')[0].value = document.getElementById('picker2').value.substring(1);">
+          <input name="color2" class="color-code" type="text" readonly value="#ffffff">
         </div>
 
         <!-- Color Three -->
         <div class="form-group col-2 align-items-center">
           <label for="hex-label">Third Color</label>
-          <input id="picker3" class="form-control" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color3')[0].value = document.getElementById('picker3').value.substring(1);">
-          <input name="color3" type="text" readonly value="#fffff">
+          <input id="picker3" class="color-swatch" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color3')[0].value = document.getElementById('picker3').value.substring(1);">
+          <input name="color3" class="color-code" type="text" readonly value="#fffff">
         </div>
 
         <!-- Color Four -->
         <div class="form-group col-2 align-items-center">
           <label for="hex-label">Fourth Color</label>
-          <input id="picker4" class="form-control" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color4')[0].value = document.getElementById('picker4').value.substring(1);">
-          <input name="color4" type="text" readonly value="#ffffff">
+          <input id="picker4" class="color-swatch" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color4')[0].value = document.getElementById('picker4').value.substring(1);">
+          <input name="color4" class="color-code" type="text" readonly value="#ffffff">
         </div>
 
         <!-- Color Five -->
         <div class="form-group col-2 align-items-center">
-          <label for="hex-label">Fourth Color</label>
-          <input id="picker5" class="form-control" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color5')[0].value = document.getElementById('picker5').value.substring(1);">
-          <input name="color5" type="text" readonly value="#ffffff">
+          <label for="hex-label">Fifth Color</label>
+          <input id="picker5" class="color-swatch" type="color" value="#ffffff" onchange="javascript:document.getElementsByName('color5')[0].value = document.getElementById('picker5').value.substring(1);">
+          <input name="color5" class="color-code" type="text" readonly value="#ffffff">
         </div>
       </div>
 
