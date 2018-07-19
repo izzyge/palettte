@@ -52,7 +52,7 @@
   height:170px!important;
   width:100px!important;
   margin-bottom: 15px;
-  border: none!important;
+  border-color: #a4a4a4;
 }
 
 .color-code {
@@ -63,4 +63,8 @@
 .title .form-control {
   height: 30px!important;
   width: 90%!important;
+}
+
+input::-webkit-color-swatch {
+    border: none;
 }
