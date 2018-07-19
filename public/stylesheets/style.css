@@ -48,10 +48,16 @@
   right: 30px;
 }
 
-.form-control {
+.color-swatch {
   height:170px!important;
   width:100px!important;
   margin-bottom: 15px;
+  border: none!important;
+}
+
+.color-code {
+  border: none;
+  text-align: center;
 }
 
 .title .form-control {
