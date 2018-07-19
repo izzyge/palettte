@@ -1,9 +1,10 @@
 <header>
-  <div class="row align-items-center">
-    <div class="col justify-content-center text-center">
-      <a class="btn btn-outline-dark" href="#">Space</a>
+    <div class="row align-items-center">
+      <div class="col justify-content-center text-center">
+        <h4 class="tagline">create and share your own color palettes</h4>
+        <a class="btn btn-outline-dark" href="/posts/new">Start Now</a>
+      </div>
     </div>
-  </div>
 </header>
 <div class="row justify-content-center">
   <div class="col-12">
@@ -11,30 +12,6 @@
       <div class="card border-white post text-center">
         <div class="card-body">
           <div class="row justify-content-center">
-            <!-- <style>
-              #{{this.color1}}1 {
-                background-color: #{{this.color1}};
-              }
-            </style>
-              <div class="color" id={{this.color1}}1></div>
-            <style>
-              #{{this.color2}}2 {
-                background-color: #{{this.color2}};
-              }
-            </style>
-              <div class="color" id={{this.color2}}2></div>
-            <style>
-              #{{this.color2}}3 {
-                background-color: #{{this.color3}};
-              }
-            </style>
-              <div class="color" id={{this.color3}}3></div>
-            <style>
-              #{{this.color2}}4 {
-                background-color: #{{this.color4}};
-              }
-            </style>
-              <div class="color" id={{this.color4}}4></div> -->
               <style>
                 .one-{{this.color1}} {
                   background-color: #{{this.color1}};
@@ -69,12 +46,11 @@
 
 <div class="buttons">
   <div class="row justify-content-end">
-    <!-- <a class="button" id="top" href="#"><img src="/img/Top (1).png"></a>
-
-    <a class="button" id="create" href="/posts/new"><img src="/img/Create (1).png"></a> -->
-    <a href="#"><button type="button" class="btn btn-outline-dark" id="top">^</button></a>
-
-    <a href="/posts/new"><button type="button" class="btn btn-outline-dark" id="create">+</button></a>
+    <div class="container">
+      <a class="button" id="top" href="#"><img src="/img/Top.png" alt="Button to Top" width="25" height="30"></a>
+      <a class="button" id="bottom" href="javascript: document.body.scrollIntoView(false);"><img src="/img/Bottom.png" alt="Button to Bottom" width="25" height="30"></a>
+      <!-- <a class="button" id="create" href="/posts/new"><img src="/img/Create.png" alt="Create" width="90" height="90"></a> -->
+    </div>
   </div>
 </div>
 

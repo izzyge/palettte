@@ -1,8 +1,10 @@
 
-h4 {
-  padding: 5em;
+.tagline {
+  padding: 100px 0px 30px;
   font-style: italic;
-  color: #7BA8A1;
+  /* color: #7BA8A1; */
+  color: #000;
+  font-size: 1.33em;
 }
 
 .card {
@@ -30,12 +32,18 @@ h4 {
 
 #create {
   position: fixed;
-  bottom: 90px;
+  top: 65px;
   right: 50px;
 }
 
 #top {
   position: fixed;
-  top: 100px;
-  right: 50px;
+  bottom: 90px;
+  right: 30px;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 35px;
+  right: 30px;
 }
