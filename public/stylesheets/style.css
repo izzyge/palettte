@@ -1,6 +1,6 @@
 .parallax {
-    background-image: url("../img/richbriancrying.jpg");
-    min-height: 800px;
+    background-image: url("../img/JShine.jpg");
+    min-height: 1000px;
 
     background-attachment: fixed;
     background-position: center;
@@ -8,18 +8,25 @@
     background-size: cover;
 }
 
+.cover {
+  padding-top: 220px;
+}
+
+.navbar-light .navbar-brand {
+  color: #59BDFF;
+}
 
 .tagline {
   padding: 100px 0px 30px;
   font-style: italic;
   /* color: #7BA8A1; */
-  color: #929292;
+  color: #ffffff;
   font-size: 1.33em;
 }
 
 .btn {
-  color: #a4a4a4;
-  border-color: #a4a4a4;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .card {
