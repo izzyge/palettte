@@ -18,12 +18,12 @@
 .tagline {
   padding: 100px 0px 30px;
   font-style: italic;
-  /* color: #7BA8A1; */
   color: #ffffff;
+  /* color: #7BA8A1; */
   font-size: 1.33em;
 }
 
-.btn {
+.cover .btn {
   color: #ffffff;
   border-color: #ffffff;
 }
