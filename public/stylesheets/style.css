@@ -17,6 +17,11 @@ h4 {
 }
 
 .navbar-light .navbar-brand {
+  /* color: #59BDFF; */
+  color: #7c7c7c;
+}
+
+.navbar a:hover {
   color: #59BDFF;
 }
 
@@ -132,4 +137,8 @@ h4 {
 
 input::-webkit-color-swatch {
     border: none;
+}
+
+.cover a {
+  text-decoration: none;
 }
