@@ -142,3 +142,7 @@ input::-webkit-color-swatch {
 .cover a {
   text-decoration: none;
 }
+
+#submitButton {
+  margin: 30px;
+}
