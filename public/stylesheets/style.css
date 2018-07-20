@@ -7,9 +7,29 @@
     background-size: cover;
 }
 
+.palettte {
+  color: #59BDFF!important;
+}
+
+.palettte:hover {
+  color: #7c7c7c!important;
+}
+
 h4 {
   padding-top: 10em;
   color: #ffffff;
+}
+
+.show-more:hover {
+  color: #59BDFF!important;
+}
+
+.tri-down {
+  color: #fff;
+  padding-top: 10em;
+}
+.up {
+  color: #7c7c7c!important;
 }
 
 .cover {
@@ -100,18 +120,70 @@ h4 {
   position: fixed;
   bottom: 100px;
   left: 30px;
+  display: inline-block;
 }
 
 #top {
   position: fixed;
   bottom: 150px;
   right: 42px;
+  display: inline-block;
+}
+
+.show-more {
+  display: inline-block;
+}
+
+.top-arrow .tooltiptext,
+.bottom-arrow .tooltiptext {
+  visibility: hidden;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  right: 105%;
+}
+
+.create-button .tooltiptext {
+  visibility: hidden;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: +8px;
+  left: 105%;
+}
+
+.show .tooltiptext {
+  visibility: hidden;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  font-size: .7em;
+  bottom: 6%;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.top-arrow:hover .tooltiptext,
+.bottom-arrow:hover .tooltiptext,
+.create-button:hover .tooltiptext,
+.show-more:hover .tooltiptext {
+  visibility: visible;
 }
 
 #bottom {
   position: fixed;
   bottom: 100px;
   right: 42px;
+  display: inline-block;
 }
 
 .color-swatch {
