@@ -102,10 +102,6 @@ h4 {
   left: 30px;
 }
 
-#create: hover {
-  background-image: url("./img/Create-new-hover.png");
-}
-
 #top {
   position: fixed;
   bottom: 150px;
